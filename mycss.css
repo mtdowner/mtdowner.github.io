@@ -1,1 +1,23 @@
+element {
+width: 300px;
+height: 98px;
+background-color: #AC76FC;
+position: relative;
+box-shadow: inset 0px 10px 66px -16px #FF19E4, 1px 1px 26px 9px #8908CE;
+}
 
+element {
+width: 300px;
+height: 100px;
+background-color: #5123A8;
+position: relative;
+box-shadow: 0px 2px 16px 1px #82DDFF, 0px 0px 21px 9px #451066, inset 45px -40px 117px -16px #8E118A;
+}
+
+element {
+width: 355px;
+height: 100px;
+background-color: #8E1DAA;
+position: relative;
+box-shadow: 5px -5px 51px 0px #852A9E, inset -5px -100px 99px -49px #82DDFF, 0px 25px 6px -43px #451066;
+}
