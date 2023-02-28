@@ -1,3 +1,4 @@
+
 body {
 display: flex;
 justify-content: center;
@@ -93,13 +94,17 @@ background-position: 0% 50%;
   }
 }
 
+.nav {
+ width:100%
+}
+
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #666CEA;
-  border: 5px dotted limegreen;
+border: 5px dotted limegreen;
 }
 
 li {
