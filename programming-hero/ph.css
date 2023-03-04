@@ -1,0 +1,68 @@
+body {
+font-family: "nitti-typewriter-open", sans-serif;
+font-weight: 800;
+font-style: normal;
+background-image: linear-gradient(rgba(90, 25, 255, 0.1), rgba(100, 30, 240, 0.1)), linear-gradient(#5ee6da, #9198e5, #5555ff);
+line-height: 26px;
+}
+
+.purple-color { 
+  color: #8845f4;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+  }
+
+.side-img {
+  width: 50%;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px groove #99f;
+  display: block;
+  margin: 0 auto;
+  }
+
+.primary-btn {
+  color: white;
+  background-color: #8845f4;
+  padding: 13px 42px;
+  border-radius: 20px;
+  text-decoration:none;
+}
+
+.container {
+padding-left: 5%;
+  display: inline-block;
+}
+
+.experiences {
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(238, 251, 255);
+border-radius: 20px;
+}
+
+.experience-item {
+padding: 10px;
+border-left: 1px solid rgba(137,
+130, 247, .2);
+}
+
+h1, h2 {
+  background: -webkit-linear-gradient(#746cff, #746cff, #4b00ff);
+    -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+h2, h3 {
+  text-shadow: 5px 5px 3px #8845f4;
+  background: black;
+  border-radius: 10px;
+  padding: 10px;
+  }
+
+h3 {
+  opacity: 100%;
+}
