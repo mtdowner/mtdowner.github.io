@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>amessyproject</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css">
+</head>
+  
+<body>
+	 <section class="container">
+     <div class="half-width">
+       
+<h1>A visitor! Hello! Please, come in.</h1>
+
+<h2>Baby Web Developer Today, Grown Up Tomorrow </h2>
+  <h3>(or the day after..)</h3>
+<p>
+  <span class="purple-color">Welcome</span> to my site where you will find all the mediocre things 
+You might see me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that work. That's why I am learning and mastering web development. I will not stop until I become the Web Development Hero.
+</p>    
+<a class="primary-btn" href="https://www.linkedin.com/in/melissa-downer/">Hire Me</a>
+</div>
+    
+  <div class="half-width">
+    <img class="side-img" src="me.jpeg" alt="headshot of missy">
+  </div> 
+  </section>
+  
+    <section class="container">
+  <div class="half-width">
+    <img class="side-img" src="card.jpeg" alt="business card">
+  </div>
+
+  <div class="half-width">
+<h2>BIG DREAM</h2>
+    <h4>Web Developer</h4>
+    <p>
+       Every day, I study new topics in html and css. I take what I learn and build on top of what I already know by adding to my portfolio (what you're looking at right now) or build new projects. All of my free time is dedicated to learning everything I can so maybe one day I can grow up to be the person other people say, "Wow, I bet she studied new topics in html and css everyday"
+    </p>
+    <a class="primary-btn" href="mailto:mtdowner1@icloud.com"> Email: mtdowner1@icloud.com</a>
+    </div>
+</section>
+  
+<section class="container experiences">
+    <h2>Experience</h2>
+<div class="experience-item"ív>
+  <h3>Student Web Developer</h3>
+
+  <p class="purple-color">
+    December 2022 | Present</p>
+</div>
+
+<div class="experience-item">
+<h3>Baby Web Developer</h3>
+<p class="purple-color">
+  2019 - 2023 | Programming Hero (Remote)
+</p>
+      <p>They didn't offer me a job. But I made myself as a remote web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+</div>
+</section>
+  
+<footer>
+<p> © Missy Downer 2022, a messyproject initiative.</p>
+</footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="blurple" position="bottom-right"></script>
+</body>
+</html>
