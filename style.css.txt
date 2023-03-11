@@ -1,0 +1,119 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(155deg, #4b00ff, #7f22ff, #0e2657, #ab8df7);
+background-size: 450%;
+animation: bganimation 5s infinite;
+}
+ 
+input {
+margin-bottom: 16px;
+outline: none;
+}
+  
+.container {
+background-image: radial-gradient(#b18cfe, #4d22b2);
+height: 300px;
+width: 350px;
+border: black 1.5px solid;
+border-radius: 5%;
+box-shadow: 8px 8px 50px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+  
+#submit {
+outline: none;
+color: black;
+height: 31px;
+width: 90px;;
+border-radius: 20px;
+border-style: none;
+background-color: yellow;
+font-weight: 550;
+}
+  
+ #submit:hover {
+  transition: 1s;
+  font-weight: 550;
+  background-color: red;
+  border: 2px solid yellow;
+  color: white;
+}
+  
+#enter {
+color: black;
+height: 32px;
+width: 250px;
+text-align: center;
+font-size: small;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-style: none;
+background-color: yellow;
+}
+  
+#enter:hover {
+transition: 0.4s;
+background-color: pink;
+}
+  
+img[alt="www.000webhost.com"] {
+display: none;
+}
+  
+a {
+font-weight: 500;font-family: monospace;
+font-size: 105%;
+text-decoration: none;
+color: black;
+}
+  
+a:hover {
+text-decoration: underline;
+ }
+  
+a:first-child {
+margin-right: 28px;
+}
+ 
+@keyframes bganimation {
+  0% {
+  background-position: 0% 50%;
+ }
+   50% {
+  background-position: 100% 50%;
+   }
+  100% {
+background-position: 0% 50%;
+  }
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #666CEA;
+  border: 5px dotted limegreen;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: cyan;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #99f;
+}
