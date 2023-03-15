@@ -1,0 +1,40 @@
+body {
+    background: radial-gradient(#7666ff, #7687ff, #adf, #8088ff);
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(110deg, #7666ff, #7687ff, #adf, #8088ff);
+    box-shadow: 5px 5px 15px #adf;
+    border: 15px double #99f;
+    border-radius: 5px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #3d51f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: #99f;
+    text-shadow: 3px 3px 2px #adf;
+  }
+  
+  .active {
+    color: #3d51f5;
+  }
