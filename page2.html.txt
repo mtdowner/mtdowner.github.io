@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cheat the Sheet</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<h1>Let's Get to Cheating</h1>
+	<hr>
+	<h2>HTML INLINE</h2>
+	<table>
+		<thead>
+			<th>Tag</th>
+			<th>Element Name</th>
+			<th>Self-closing?</th>
+			<th>Description</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;h1&gt;</span></td>
+				<td>Heading 1</td>
+				<td class="checkbox">
+					<input type="checkbox" checked="checked">
+				</td>
+				<td>Main heading out of 6.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;table&gt;</span></td>
+				<td>Table</td>
+				<td class="checkbox">
+					<input type="checkbox" checked="checked">
+				</td>
+				<td>Container of columns and rows displaying data.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;thead&gt;</span>
+				</td>
+				<td>Table Head</td>
+				<td class="checkbox">
+					<input type="checkbox">
+				</td>
+				<td>The set of rows defining the column headers in a table.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tbody&gt;</span></td>
+				<td>Table Body</td>
+				<td class="checkbox">
+					<input type="checkbox">
+				</td>
+				<td>The set of rows containing actual table data.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tr&gt;</span></td>
+				<td>Table Row</td>
+				<td class="checkbox">
+					<input type="checkbox">
+				</td>
+				<td>The table row container.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;td&gt;</span></td>
+				<td>Table Data</td>
+				<td class="checkbox">
+					<input type="checkbox">
+				</td>
+				<td>The table row container.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tfoot&gt;</span></td>
+				<td>Table Foot</td>
+				<td class="checkbox">
+					<input type="checkbox">
+				</td>
+				<td>The set of rows defining the footer in a table.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>HTML BLOCK</h2>
+	<table>
+		<thead>
+			<th>Tag</th>
+			<th>Element Name</th>
+			<th>Purpose</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">colspan</span></td>
+				<td>Column Span</td>
+				<td>Defines how many columns a td element should span.</td>
+			</tr>
+			<tr>
+				<td><span class="code">rowspan</span></td>
+				<td>Row Span</td>
+				<td>Defines how many rows a td element should span.</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

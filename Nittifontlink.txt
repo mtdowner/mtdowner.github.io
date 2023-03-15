@@ -1,0 +1,26 @@
+<head>
+<link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css">
+<title></title>
+<style>
+
+font-family: "nitti-typewriter-cameo", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "nitti-typewriter-corrected", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: "nitti-typewriter-normal", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "nitti-typewriter-open", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+font-family: "nitti-typewriter-underlined", sans-serif;
+font-weight: 500;
+font-style: normal;
+</style>
+</head>
