@@ -199,16 +199,7 @@ text-shadow: 62px 81px 9px rgba(124,0,236,0.96);
 
 ## General Styles
 
-```html
-h1 {
-background-color: #6666FF;
-color: white;
-padding: 40px;
-text-align: center;
-}
-```
-
-```
+```css
 /* General styles - put these straight into your stylesheet */
 
 body {
@@ -253,4 +244,137 @@ html {
   max-height: 100%
   float: right;
 }
+```
+
+```css
+h1 {
+background-color: #6666FF;
+color: white;
+padding: 40px;
+text-align: center;
+}
+```
+
+```css
+element {
+width: 300px;
+height: 100px;
+background-color: #AC76FC;
+position: relative;
+box-shadow: inset 0px 10px 66px -16px #FF19E4, 1px 1px 26px 9px #8908CE;
+}
+
+element {
+width: 300px;
+height: 100px;
+background-color: #5123A8;
+position: relative;
+box-shadow: 0px 2px 16px 1px #82DDFF, 0px 0px 21px 9px #451066, inset 45px -40px 117px -16px #8E118A;
+}
+
+element {
+width: 355px;
+height: 100px;
+background-color: #8E1DAA;
+position: relative;
+box-shadow: 5px -5px 51px 0px #852A9E, inset -5px -100px 99px -49px #82DDFF, 0px 25px 6px -43px #451066;
+}
+```
+
+```css
+/* TABLES */
+
+body {
+  background-color: #b3c0eb;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: slateblue;
+}
+
+hr {
+  background-color: slateblue;
+  height: 1px;
+  border: 1px solid cyan;
+}
+
+table {
+  max-width: 100%;
+  color: slateblue;
+  border: 5px solid;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+thead {
+  color: cyan;
+  background-color: mediumslateblue;
+  border: 2px solid mediumslateblue;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  border-top: 1px solid cyan;
+  padding: 5px 7px;
+}
+
+.code {
+  font-family: monospace;
+  background: cyan;
+  color: rebeccapurple;
+}
+
+.checkbox {
+  width: 75px;
+  background-color: mediumslateblue;
+  margin: auto;
+}
+
+input {
+  margin: auto;
+  display: flex;
+}
+```
+
+```html
+Animation object position
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animation of object-position</title>
+<style> 
+#myImg {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  animation: mymove 5s infinite;
+}  
+
+@keyframes mymove {
+  0% {
+    object-position: 0% 0%;
+  }
+  25% {
+    object-position: 20% 0%;
+  }
+  100% {
+    object-position: 100% 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<img src="paris.jpg" alt="Paris" id="myImg" width="400" height="300">
+<p>IE not supported</p>
+</body>
+</html>
 ```
