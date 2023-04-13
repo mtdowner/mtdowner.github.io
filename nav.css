@@ -1,5 +1,6 @@
 body {
     background: radial-gradient(#7666ff, #7687ff, #adf, #8088ff);
+    background-repeat: no-repeat;
     font-size: 18px;
   }
   
