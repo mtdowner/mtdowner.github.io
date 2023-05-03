@@ -1,11 +1,9 @@
 # Stylin Stuff
 ----
 
-<<<<<<< HEAD
 ## Styled elements
 =======
 ## Boilerplate
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
 ```html
 <!DOCTYPE html>
@@ -31,7 +29,6 @@
 </html>
 ```
 
-<<<<<<< HEAD
 element {
 width: 300px;
 height: 98px;
@@ -49,9 +46,7 @@ box-shadow: inset 0px 10px 66px -16px #FF19E4, 1px 1px 26px 9px #8908CE;
 <meta name="description" content="">
 <meta name="theme-color" content="#9999ff">
 ```
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
-<<<<<<< HEAD
 element {
 width: 300px;
 height: 100px;
@@ -142,11 +137,7 @@ input {
 ```html
 <link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css">
 ```
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 ```css
-<<<<<<< HEAD
-#7fa6f8
-=======
 font-family: "nitti-typewriter-cameo", sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -169,11 +160,9 @@ font-style: normal;
 >>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 ```
 
-<<<<<<< HEAD
 ## Linear-gradient
 =======
 ### HEX
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
 - #ae00fd
 - #bbf2bb
@@ -184,7 +173,7 @@ font-style: normal;
 - #ff99ff
 - #4a00ff
 - #2300ff
-- #390ee90
+- #390ee9
 - #6666ff
 - #7390de
 - #7fa6f8
@@ -292,19 +281,16 @@ background:linear-gradient(180deg,#F03731,#303566);
 background:linear-gradient(180deg,#28C4CE,#BDC4D4);
 ```
 ----
-### Text Shadows
+## Shadow
 
-<<<<<<< HEAD
-## Text-shadow
-
+### Text-shadow
 =======
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
+
 ```css
 text-shadow: 62px 81px 9px rgba(124,0,236,0.96);
 ```
 ----
 
-<<<<<<< HEAD
 ## Card style 1
 
 ```css
@@ -353,8 +339,8 @@ html {
   float: right;
 }
 ```
-
 =======
+
 ## General Styles
 
 ```css
@@ -440,7 +426,8 @@ box-shadow: 5px -5px 51px 0px #852A9E, inset -5px -100px 99px -49px #82DDFF, 0px
 ```
 
 ```css
-/* TABLES */
+
+## Table elements
 
 body {
   background-color: #b3c0eb;
@@ -500,9 +487,9 @@ input {
 }
 ```
 
-```html
-Animation object position
+## Animation object position
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -537,4 +524,299 @@ Animation object position
 </html>
 ```
 
->>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
+## Sticky navigation
+```css
+body {
+    background: radial-gradient(#7666ff, #7687ff, #adf, #8088ff);
+    background-repeat: no-repeat;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(110deg, #7666ff, #7687ff, #adf, #8088ff);
+    box-shadow: 5px 5px 15px #adf;
+    border: 15px double #99f;
+    border-radius: 5px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: #3d51f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #99f;
+  text-shadow: 3px 3px 2px #adf;
+}
+
+.active {
+  color: #3d51f5;
+}
+
+------------------
+erase
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(155deg, #4b00ff, #7f22ff, #0e2657, #ab8df7);
+background-size: 450%;
+animation: bganimation 5s infinite;
+}
+ 
+input {
+margin-bottom: 16px;
+outline: none;
+}
+  
+.container {
+background-image: radial-gradient(#b18cfe, #4d22b2);
+height: 300px;
+width: 350px;
+border: black 1.5px solid;
+border-radius: 5%;
+box-shadow: 8px 8px 50px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+  
+#submit {
+outline: none;
+color: black;
+height: 31px;
+width: 90px;;
+border-radius: 20px;
+border-style: none;
+background-color: yellow;
+font-weight: 550;
+}
+  
+ #submit:hover {
+  transition: 1s;
+  font-weight: 550;
+  background-color: red;
+  border: 2px solid yellow;
+  color: white;
+}
+  
+#enter {
+color: black;
+height: 32px;
+width: 250px;
+text-align: center;
+font-size: small;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-style: none;
+background-color: yellow;
+}
+  
+#enter:hover {
+transition: 0.4s;
+background-color: pink;
+}
+  
+img[alt="www.000webhost.com"] {
+display: none;
+}
+  
+a {
+font-weight: 500;
+font-family: monospace;
+font-size: 105%;
+text-decoration: none;
+color: black;
+}
+  
+a:hover {
+text-decoration: underline;
+ }
+  
+a:first-child {
+margin-right: 28px;
+}
+ 
+@keyframes bganimation {
+  0% {
+  background-position: 0% 50%;
+ }
+   50% {
+  background-position: 100% 50%;
+   }
+  100% {
+background-position: 0% 50%;
+  }
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #666CEA;
+  border: 5px dotted limegreen;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: cyan;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #99f;
+}  
+--------------------
+  
+  .active {
+    color: #3d51f5;
+  }
+
+## User registration form
+```css
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(155deg, #4b00ff, #7f22ff, #0e2657, #ab8df7);
+background-size: 450%;
+animation: bganimation 5s infinite;
+}
+ 
+input {
+margin-bottom: 16px;
+outline: none;
+}
+  
+.container {
+background-image: radial-gradient(#b18cfe, #4d22b2);
+height: 300px;
+width: 350px;
+border: black 1.5px solid;
+border-radius: 5%;
+box-shadow: 8px 8px 50px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+  
+#submit {
+outline: none;
+color: black;
+height: 31px;
+width: 90px;;
+border-radius: 20px;
+border-style: none;
+background-color: yellow;
+font-weight: 550;
+}
+  
+ #submit:hover {
+  transition: 1s;
+  font-weight: 550;
+  background-color: red;
+  border: 2px solid yellow;
+  color: white;
+}
+  
+#enter {
+color: black;
+height: 32px;
+width: 250px;
+text-align: center;
+font-size: small;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-style: none;
+background-color: yellow;
+}
+  
+#enter:hover {
+transition: 0.4s;
+background-color: pink;
+}
+  
+img[alt="www.000webhost.com"] {
+display: none;
+}
+  
+a {
+font-weight: 500;
+font-family: monospace;
+font-size: 105%;
+text-decoration: none;
+color: black;
+}
+  
+a:hover {
+text-decoration: underline;
+ }
+  
+a:first-child {
+margin-right: 28px;
+}
+ 
+@keyframes bganimation {
+  0% {
+  background-position: 0% 50%;
+ }
+   50% {
+  background-position: 100% 50%;
+   }
+  100% {
+background-position: 0% 50%;
+  }
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #666CEA;
+  border: 5px dotted limegreen;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: cyan;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #99f;
+}
+```
