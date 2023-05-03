@@ -60,13 +60,9 @@ You might see me jumping, climbing buildings, and stopping trains. But nobody pa
       <p>They didn't offer me a job. But I made myself as a remote web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
 </div>
 </section>
-  
+
 <footer>
-<p> © Missy Downer 2022, a messyproject initiative.</p>
+<p> © Missy Downer 2023, a messyproject initiative.</p>
 </footer>
-
-  <script src="script.js"></script>
-
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="blurple" position="bottom-right"></script>
 </body>
 </html>
