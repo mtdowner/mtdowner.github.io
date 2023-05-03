@@ -1,7 +1,11 @@
 # Stylin Stuff
 ----
 
+<<<<<<< HEAD
+## Styled elements
+=======
 ## Boilerplate
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
 ```html
 <!DOCTYPE html>
@@ -27,6 +31,15 @@
 </html>
 ```
 
+<<<<<<< HEAD
+element {
+width: 300px;
+height: 98px;
+background-color: #AC76FC;
+position: relative;
+box-shadow: inset 0px 10px 66px -16px #FF19E4, 1px 1px 26px 9px #8908CE;
+}
+=======
 ## Meta Tags
 ```html
 <meta charset="utf-8">
@@ -36,7 +49,87 @@
 <meta name="description" content="">
 <meta name="theme-color" content="#9999ff">
 ```
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
+<<<<<<< HEAD
+element {
+width: 300px;
+height: 100px;
+background-color: #5123A8;
+position: relative;
+box-shadow: 0px 2px 16px 1px #82DDFF, 0px 0px 21px 9px #451066, inset 45px -40px 117px -16px #8E118A;
+}
+
+element {
+width: 355px;
+height: 100px;
+background-color: #8E1DAA;
+position: relative;
+box-shadow: 5px -5px 51px 0px #852A9E, inset -5px -100px 99px -49px #82DDFF, 0px 25px 6px -43px #451066;
+}
+
+## Table elements
+
+body {
+  background-color: #b3c0eb;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: slateblue;
+}
+
+hr {
+  background-color: slateblue;
+  height: 1px;
+  border: 1px solid cyan;
+}
+
+table {
+  max-width: 100%;
+ color: slateblue;
+ border: 5px solid;
+ margin: 0 auto;
+ border-collapse: collapse;
+}
+
+thead {
+ color: cyan;
+ background-color: mediumslateblue;
+ border: 2px solid mediumslateblue;
+}
+
+.header {
+ margin: auto;
+ text-align: center;
+}
+
+td {
+  border-top: 1px solid cyan;
+  padding: 5px 7px;
+}
+
+.code {
+  font-family: monospace;
+  background: cyan;
+  color: rebeccapurple;
+}
+
+.checkbox {
+ width: 75px;
+ background-color: mediumslateblue;
+ margin: auto;
+}
+
+input {
+ margin: auto;
+ display: flex;
+}
+
+## Color
+
+=======
 ## Favicon
 ```html
 <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAD+mKcA/7h3APKoswD80gAA/8R3AP++gADwtLMA/8l0AP98igD/spsA/3mTAP9+kAD8z30A/55pAP2tuQDo8IYA/5N+AOvriQD/gJ8A/3irAP9svQD/sLkA49m/AP+InAD/jJYA/5CQAP+0vAD/iqIA/5KWAP+TmQD/m5YA+puoAP9tggD/enMA/3d8AP+hnwD/lLcA6OCEAP95iwD+msAA/4p2AP+EfwD4x4oA/8CHAP97kQD/knMA/6+uAPPfgQDc95MA/3amAP9uWQD/ZGgA5uCoAP+ShQD/r8AA+4qjAP+InQD/n38A/3hcAPeUpgD/sMwA/5uOAP+rdgD6ctkA/3hlAP93awD/dnEA/5WpAP+PsgD/sIUA/3p9AP2TvgD/zGQA/LaOAP+/fADv04IA/32GAPDHnQD/sp0A/7GsAP3TIADly8QA/2taAOHguwD/amkA/5aJAP+agwD/gqcA/4WnAP+kfQD6vwAA/7bEAN76rwD9x1YA95ewAPKgsAD4mbYA9IfaAP94eAD/pZsA/6aeAPqbvADe74YA/5NmAOTwiQD/gJkA/4qKAPyoyAD/m3UA/7OzAOH2kgDh8Z4A/q/CAP+GogD/hKUA/3dbAP+UlgD/jp8A/7fIAP92cwD/kqsA/4BtAP94eQD/sYoA9MOKAP/IbAD/f3wA9belAPbGkwDtv7QA7N6KAP9srwD/gZQA9NiKAP6AmgDd9pMA7eiEAP9mXwDkz8AA/4CaAP5nxAD/sL0A3PSoAP6MmgD/ssMA3fqoAP9qdAD/dGUA/4ipAP95YgD/laMA/6GaAPmlpgD3k8oA/rKOAPaG4gD/fYAA/4F6AP+6lAD/rawA+dKCAP62owD6pMcA5+6FAO3clwD/sLUA/6q+APyqxwD+q8EA/4ObAP+LjwDc+Z0A/YqeAP1x0QD/tMoA/qSSAPrNAAD/f2wA/LGMAP/OXAD/qZgA/3iEAP+KaQD/qJ4A/3mHAP+xlQD/eI0A/3+HAO7bgwD2k90A/36NAP+GgQD5yDAA8tGSAPuttgD+ZL0A/4qEAObrjwDr5Y8A6O+JAPtm1QD/hpwA/qnOAP+bigD/dGcA/6WEAPZ24QD/jK4A/9JFAP+vfgD/qYcA8aWxAP+kkwD/eXYA/8JvAP+CdgD/uIcA/sKBAP9/iAD/mGcA6s+xAP+NhQDs6IcA/3BcAP6uwwDe67QA/5iLAPeWqQD/eXcA/5ypAP95gAD/h2sA/2+PAP+tlAD/lbgA/8F/AP+5iwD/nLsA/q+jAP2uqQD/hoMA/4KJAOPuiADl7YUA/4iJAP+BoQD/h5gA/29jAP97WgD/eV0A/3VsAPnGAAAAAAAAAAAAAAAAAAAAAAAA78IOoUVZ8Lv0ZBWnYF9RXO4AqI1P6cviY5/gol7TipFOG0M2kBptLqVwa2U7AharnjhxeKZbdq48yic34wZTMCsYF1jPJO3qRJSGrB+B4WbrGfZpcnL1Egq6C4+Y3I4lB1WqhKmLLCa15vF0fzSHfH1W3dq+CLgi5H7Er01v8h5IzTUpnEZ6dyHXEJqkbksxs9I1ndVC+kGxKDkqxfOyw9B7Pb8hzJNAeS3RhWi8ychQ2NRqYvffleds2d6jSYPOA0q0HExUMvm2PqAPgh2MYbDWuSOEklL4ZwEvx4ATP5n7Xey3dSCJc9sEiMaXFJtHWsAFCZboMzoNDBHBV6295QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
@@ -49,7 +142,11 @@
 ```html
 <link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css">
 ```
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 ```css
+<<<<<<< HEAD
+#7fa6f8
+=======
 font-family: "nitti-typewriter-cameo", sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -69,9 +166,14 @@ font-style: normal;
 font-family: "nitti-typewriter-underlined", sans-serif;
 font-weight: 500;
 font-style: normal;
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 ```
 
+<<<<<<< HEAD
+## Linear-gradient
+=======
 ### HEX
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 
 - #ae00fd
 - #bbf2bb
@@ -186,17 +288,73 @@ background:linear-gradient(110deg, #7666ff, #7687ff, #adf, #8088ff);
 background:linear-gradient(218deg,#5514E9,#9EC824);
 background:linear-gradient(43deg,#244AB9,#47E873);
 background:linear-gradient(180deg,#1DD4A6,#5B9DD9);
-background:linear-gradient(180deg,#F03731,#303566y55);
+background:linear-gradient(180deg,#F03731,#303566);
 background:linear-gradient(180deg,#28C4CE,#BDC4D4);
 ```
 ----
 ### Text Shadows
 
+<<<<<<< HEAD
+## Text-shadow
+
+=======
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
 ```css
 text-shadow: 62px 81px 9px rgba(124,0,236,0.96);
 ```
 ----
 
+<<<<<<< HEAD
+## Card style 1
+
+```css
+/* General styles - put these straight into your stylesheet */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+/* Selectors to be matched up with rulesets */
+
+.card article img
+.card footer
+.card header
+.card
+
+/* Rulesets to be matched up with selectors */
+
+{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-colour: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+{
+  max-height: 100%
+  float: right;
+}
+```
+
+=======
 ## General Styles
 
 ```css
@@ -378,3 +536,5 @@ Animation object position
 </body>
 </html>
 ```
+
+>>>>>>> facc66e9b5fd760c41a2fb274fb1587136e99a2a
