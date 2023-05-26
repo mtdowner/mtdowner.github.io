@@ -93,8 +93,32 @@
 #746cff
 #5123A8
 #82DDFF
+#8225ff
 #5514e9
 #aaddff
+#8225ff
+#00ffff
+#881798
+#9719ab
+#8042f5
+#b332ff
+#8b32ff
+#d5ccff
+#ae93ff
+#cdcdff
+#ad9eff
+#3533cd
+#7bf0ff
+#8214e1
+#8255ff
+#8225ff
+#9003ff
+#666aaa
+#666ddd
+#aaaaff
+#7800ff
+#8800ff
+
 rgba(124, 0, 236, 0.96)
 rgba(137, 130, 247, .2)
 rgba(90, 25, 255, .1)
