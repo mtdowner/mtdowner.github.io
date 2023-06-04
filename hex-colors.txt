@@ -6,7 +6,6 @@
 #ccccff
 #8800ff
 #efcaff
-#9999ff
 #ccccff
 #6666ff
 #aaddff
@@ -86,6 +85,7 @@
 #0e2657
 #ab8df7
 #666cea
+#777cea
 #ac76f7
 #4b00ff
 #ff19e4
@@ -93,7 +93,6 @@
 #746cff
 #5123A8
 #82DDFF
-#8225ff
 #5514e9
 #aaddff
 #8225ff
@@ -121,9 +120,11 @@
 #8800ff
 #8c52ff
 #C094FF
-#
+#9999aa
 #4088aa
-
+#8e2ae2
+#77ffff
+#8000ff
 
 #007dd659
 rgba(124, 0, 236, 0.96)
