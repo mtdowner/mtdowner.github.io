@@ -142,7 +142,8 @@ Blues
 #346095
 
 Blue-purples
-8300FF
+#8300FF
+#7b54d5
 
 Red-purples
 #5A0095
