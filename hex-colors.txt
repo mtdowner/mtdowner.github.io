@@ -133,6 +133,48 @@
 #7b54ff
 #7b54d5
 
+Teals
+#017ba3
+
+Blues
+#006095
+#34C0FF
+#346095
+
+Blue-purples
+8300FF
+
+Red-purples
+#5A0095
+
+Pinks
+#FF0095
+#FF00FF
+
+#AA00FF = rgb(170, 0, 255), rgb(170, 51, 255), rgb(170, 102, 255), rgb(170, 153, 255), rgb(170, 204, 255), rgb(170, 255, 255)
+#8300FF
+
+#650091
+#6500d2
+#7D00FF
+#7d48ff
+
+#7D48C9
+
+#7DB4C9
+#7D00C9
+
+#7D93DF
+#9169FF
+#D0FFFF
+
+#D069FF
+#D0DFFF
+#9781FF
+#ECFFC4
+#5AFFC4
+#D823FF
+
 #007dd659
 rgba(124, 0, 236, 0.96)
 rgba(137, 130, 247, .2)
