@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:200px;
+   margin-left:1rem;
 }
    
 input {
@@ -67,7 +69,8 @@ input {
   }
     
   a {
-  font-weight: 500;font-family: monospace;
+  font-weight: 500;
+  font-family: Menlo, monospace;
   font-size: 105%;
   text-decoration: none;
   color: black;
