@@ -1,21 +1,22 @@
 html {
-    background-image: linear-gradient(45deg, #ffccff, #ab00b7, #7f22ff);
-    background-size: 200%;
-    animation: bganimation 5s infinite;
-    }
-  
-  body {
+  background-image: linear-gradient(45deg, #ffccff, #ab00b7, #7f22ff);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  animation: bganimation 15s infinite;
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
    
-  input {
+input {
   margin-bottom: 16px;
   outline: none;
-  }
+}
     
-  .container {
+.container {
   background-image: radial-gradient(#b18cfe, #4d22b2);
   height: 300px;
   width: 350px;
