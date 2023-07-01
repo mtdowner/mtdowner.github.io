@@ -12,6 +12,10 @@ body {
   margin-top:200px;
    margin-left:1rem;
 }
+
+li {
+  list-style-type: none;
+}
    
 input {
   margin-bottom: 16px;
