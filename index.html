@@ -18,19 +18,62 @@
 
 <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
-
+  <style>
+ #typing {
+   width: 0ch;
+ 	color: #735fff;
+ 	float: left;
+ 	font-family: Menlo, monospace;
+ 	font-weight: normal;
+ 	font-size: 3rem;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	animation: typing 5s steps(14) 1s infinite alternate;
+ }
+ #typing span {
+   color:#ff47ff;
+ }
+ #crow {
+   float: left;
+   color: #735fff;
+   font-family: Menlo, monospace;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ 	animation: crow 0.5s linear 0s infinite;
+ }
+ @keyframes typing {
+   from {
+ 	  width: 0ch;
+ }
+   to {
+     width: 14ch;
+ 	}
+ }
+ @keyframes crow {
+   from {
+     opacity: 0;
+   }
+   to {
+ 		opacity: 1;
+   }
+ }
+    </style>
+</head>
+  <body>
 <nav>
 <ul>
-<li><a href="home"> Mediocre Pie Guys</a></li>
-<li><a href="news">News</a></li>
-<li><a href="toe.html">My Huge TOE</a></li>
-<li><a href="N9NE-lives/index.html">N9NE Lives Catalog</a></li>
+<li><a href="#"> Mediocre Pie Guys</a></li>
+<li><a href="#">ASecretSurvey</a></li>
+<li><a href="#">My Huge TOE</a></li>
+<li><a href="#">N9NE Lives Catalog</a></li>
 </ul>
 </nav>
 
 
 <p class="box">amessyproject.</p>
 <h1>welcome, visitor.</h1>
+     <div id="typing">Welcome, <span>visitor.</span></div>
+ <div id="crow">|</div>
 
 </body>
 </html>
