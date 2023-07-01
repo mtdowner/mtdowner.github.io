@@ -13,11 +13,22 @@ body {
   min-height: 100vh;
 }
 
-li {
-  list-style-type: none;
-}
-    
-.container {
+  @keyframes bganimation {
+    0% {
+    background-position: 0% 25%;
+   }
+    25% {
+      background-position: 50% 25%
+        }
+     50% {
+    background-position: 100% 50%;
+     }
+    100% {
+  background-position: 0% 25%;
+    }
+  }
+
+#container {
   background-image: radial-gradient(#b18cfe, #4d22b2);
   height: 300px;
   width: 350px;
@@ -29,7 +40,52 @@ li {
   align-items: center;
   flex-direction: column;
   }
-    
+
+#typing {
+  width: 0ch;
+	color: #735fff;
+	float: left;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 3rem;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 5s steps(14) 1s infinite alternate;
+}
+
+#typing span {
+  color:#ff47ff;
+}
+
+#crow {
+  float: left;
+  color: #735fff;
+  font-family: monospace;
+	font-weight: bold;
+	font-size: 30px;
+	animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+  from {
+	  width: 0ch;
+}
+  to {
+    width: 14ch;
+	}
+}
+@keyframes crow {
+  from {
+		opacity: 0;
+  }
+  to {
+		opacity: 1;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
   a {
   font-weight: 500;
   font-family: Menlo, monospace;
@@ -44,19 +100,4 @@ li {
     
   a:first-child {
   margin-right: 28px;
-  }
-   
-  @keyframes bganimation {
-    0% {
-    background-position: 0% 25%;
-   }
-    25% {
-      background-position: 50% 25%
-        }
-     50% {
-    background-position: 100% 50%;
-     }
-    100% {
-  background-position: 0% 25%;
-    }
   }
