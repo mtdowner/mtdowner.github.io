@@ -573,10 +573,8 @@ li a:hover {
 .active {
   color: #3d51f5;
 }
-
-------------------
-erase
-
+```
+```css
 body {
 display: flex;
 justify-content: center;
