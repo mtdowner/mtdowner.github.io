@@ -29,7 +29,7 @@ body {
   }
 
 #container {
-  background-image: radial-gradient(#b18cfe, #4d22b2);
+  background-image: linear-gradient(#0ff, #7223ce);
   height: 300px;
   width: 350px;
   border: black 1.5px solid;
@@ -47,10 +47,10 @@ body {
 	float: left;
 	font-family: monospace;
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 5s steps(14) 1s infinite alternate;
+	animation: typing 5s steps(16) 1s infinite alternate;
 }
 
 #typing span {
@@ -91,11 +91,12 @@ li {
   font-family: Menlo, monospace;
   font-size: 105%;
   text-decoration: none;
-  color: black;
+  color: #0ff;
   }
     
   a:hover {
-  text-decoration: underline;
+  text-decoration-line: underline;
+	  text-decoration-thickness: .5rem;
    }
     
   a:first-child {
